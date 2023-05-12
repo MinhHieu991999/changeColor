@@ -7,7 +7,7 @@ export const ColorContext = createContext()
 function App() {
 
   const [color, setColor] = useState('red')
-  const handleColor = () => { setColor(color === 'red' ? 'yellow' : 'red') }
+  const handleColor = () => { setColor(color === 'red' ? 'blue' : 'red') }
 
   return (
     <ColorContext.Provider value={handleColor}>
